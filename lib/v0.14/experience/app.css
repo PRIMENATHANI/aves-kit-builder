@@ -45,7 +45,7 @@ html.ho:not([data-ready]) .pha-fade{visibility:hidden}
 .logo{height:30px;width:auto}
 .hdr-tag{font-size:12.5px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--soft);white-space:nowrap}
 .kitlnk{margin-left:auto;font-size:12.5px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--ink);white-space:nowrap}
-.kits{font-size:12.5px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--dim);margin-left:76px;white-space:nowrap}
+.kits{font-size:12.5px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--soft);margin-left:76px;white-space:nowrap}
 html:not(.m) .kitlnk:empty+.kits,html:not(.m) .kitlnk[style*="hidden"]+.kits{margin-left:auto}
 .kits:hover{color:var(--bod)}
 .hzi{display:inline-block;flex:0 0 auto;width:22px;height:22px;color:var(--amber)}
