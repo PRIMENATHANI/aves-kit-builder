@@ -132,12 +132,12 @@ html:not(.m) .kitlnk:empty+.kits,html:not(.m) .kitlnk[style*="hidden"]+.kits{mar
 .so{position:absolute;inset:0;background:var(--brand);transform-origin:0 50%}
 .rl{margin-top:12px}
 .rl li{position:relative;display:grid;grid-template-columns:30px 32px 1fr;align-items:center;height:var(--rp);cursor:pointer;pointer-events:auto}
-.rn{grid-column:1;grid-row:1;font-size:8.5px;font-weight:900;letter-spacing:.1em;color:var(--muted)}
+.rn{grid-column:1;grid-row:1;font-size:calc(8.5px * var(--rk,1));font-weight:900;letter-spacing:.1em;color:var(--muted)}
 .rn.on{color:var(--bod)}
-.rt{grid-column:2;grid-row:1;width:22px;height:22px}
+.rt{grid-column:2;grid-row:1;width:calc(22px * var(--rk,1));height:calc(22px * var(--rk,1))}
 .rt img{width:100%;height:100%;object-fit:contain}
-.rm{grid-column:3;grid-row:1;position:relative;height:16px}
-.rnm{position:absolute;left:0;top:0;font-size:10.5px;font-weight:700;letter-spacing:.06em;color:var(--soft);white-space:nowrap;text-transform:uppercase;line-height:16px}
+.rm{grid-column:3;grid-row:1;position:relative;height:calc(16px * var(--rk,1))}
+.rnm{position:absolute;left:0;top:0;font-size:calc(10.5px * var(--rk,1));font-weight:700;letter-spacing:.06em;color:var(--soft);white-space:nowrap;text-transform:uppercase;line-height:calc(16px * var(--rk,1))}
 .rnm.on{font-weight:900;color:var(--ink)}
 
 .end{position:absolute;z-index:22;left:var(--M);top:0;bottom:0;width:min(420px,30%);padding-top:178px}
