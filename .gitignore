@@ -1,0 +1,9 @@
+# Only what the pages load is tracked.
+.DS_Store
+*.md
+*.py
+*.sh
+*.mjs
+*.txt
+*.pdf
+* [0-9].*
